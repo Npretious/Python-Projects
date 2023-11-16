@@ -6,7 +6,7 @@ email = input("What is your email address?: ").strip()
 user_name = email[:email.index("@")]
 #Slices out domain name
 domain_name = email[email.index("@")+1:]
-#Format Message
+#Formats Message
 output = "Your username is '{}' and your domain name is '{}'".format(user_name,domain_name)
 #Prints output to display
 print(output)
