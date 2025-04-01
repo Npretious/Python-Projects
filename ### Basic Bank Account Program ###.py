@@ -1,11 +1,10 @@
-﻿### Basic Bank Account Program ###
+### Basic Bank Account Program ###
 
 class BankAccount:
     def __init__(self, account_holder, initial_balance=0):
         self.account_holder = account_holder
         self.balance = initial_balance
 
-        """Nick Sinclairs Bank Account"""
     def deposit(self, amount):
         """Deposited money into the account."""
         if amount > 0:
